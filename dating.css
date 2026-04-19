@@ -1,0 +1,44 @@
+body {
+    background-color: #8665e2;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #271E1C;
+
+  }
+  
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  div {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 60px;
+    color: red;
+  }
+
+a:link {
+    color:orange;
+    font-family: verdana, cursive;
+}
+a:visited {
+    color:orange;
+    font-family: verdana, cursive;
+}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  img{
+    max-width: 80%;
+    max-height: 80%;
+  }
