@@ -8,6 +8,12 @@ body {
     text-shadow: 2px 2px #271E1C;
 
   }
+  img {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    max-height: 80%;
+  }
   
   p {
     font-size: 20px;
@@ -36,9 +42,4 @@ a:visited {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-  }
-
-  img{
-    max-width: 80%;
-    max-height: 80%;
   }
