@@ -9,18 +9,23 @@ body {
 
   }
   img {
-    display: block;
-    margin: auto;
-    max-width: 80%;
-    max-height: 80%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
   
+div.container {
+  display: flex;
+  justify-content: center;
+}
+
+
   p {
     font-size: 20px;
     text-align: center;
   }
 
-  div {
+  div.text {
     text-align: left;
   }
 
